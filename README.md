@@ -9,7 +9,13 @@ Etant technicien en SAV dans une des entreprises en tant que leaders du e-commer
 Actuellement, je fais ceci pour moi et moi seul. Si une personne souhaite me partager des connaissances, infos ou amélioration, je suis preneur, mais étant actuellement au début du projet, je vais déjà commencer par me péter le crâne sur la table en solo et comprendre mes erreurs.
 
 
-	1 _ Le but du projet :
+## Table of Contents
+
+  * [Le but du projet](#Le-but-du-projet)
+  * [Les test](#Les-test)
+
+
+	## Le but du projet
 
 		1 - Le plan : créer un éco-système permettant le boot de différents outils via un système PXE, ventoy ou maison (par la création d'un équivalent). Il faut un bouton pour faire tous les tests de façon automatique avec push du résultat et la possibilité de lancer un test seul (RAM, HDD etc.)
 		2 - Il nous faut d'en un premier temps commencé par faire boot un test mémoire, l'avantage, c'est que du code complet est déjà dispo, on va donc pouvoir se reposer la dessus. L'ensemble devrait reposer sur GRUB.
@@ -19,11 +25,10 @@ Actuellement, je fais ceci pour moi et moi seul. Si une personne souhaite me par
 		6 - Si on est sur un laptop, on chck la batterie (dans la mesure du possible bien sûr, en gros : cellule HS ? Usure importante ? Autonomie? etc.)
 		7 - On affiche la version du BIOS (si possible faire une concordance avec les sites constructeurs pour récupérer le numéro de la dernière version)
 
-	2 _ Les test :
+	## Les test
 		Pour le moment, tout sera fait avec une VMs, un vieux laptop avec un core de 6eme gen, un macbook pro a1218 et un T480.
-		Le projet sera dev sur visual studio 2022, VS code et un Ubuntu des familles.
+	    Le projet sera dev sur visual studio 2022, VS code et un Ubuntu des familles.
 
 
 RELEASE :
-		v0.01 - Push du README et mise en place du repos en public + création de branche privé
-		
+		v0.01 08-06-2023 _ Push du README et mise en place du repos en public + création de branche privé
